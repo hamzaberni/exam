@@ -2,7 +2,6 @@ import express from "express"
 import {z} from "zod"
 import filesystem from "fs/promises"
 
-
 const server = express();
 server.use(express.json());
 
